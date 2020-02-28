@@ -2,14 +2,14 @@
 Python script that support creating new working directory for NestCQRS which is same as in the [orginal docs](https://docs.nestjs.com/recipes/cqrs). 
 
 ## Commands
-py script.py ***m User***
+* py script.py ***m User***
 
 Creates CQRS working directory.
 
 ![Screenshot](resources/module.jpg)
 
 
-py script.py ***c/q/e example-name***
+* py script.py ***c/q/e example-name***
 
 Creates command/query/event implementation and handler, pins it to appropriate array of (Command||Query||Event)Handlers found on each handler directory at index.ts.
 
