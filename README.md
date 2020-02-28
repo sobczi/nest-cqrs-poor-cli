@@ -12,6 +12,7 @@ Creates CQRS working directory.
 * py script.py ***c/q/e example-name***
 
 Creates command/query/event implementation and handler, pins it to appropriate array of (Command||Query||Event)Handlers found on each handler directory at index.ts.
+![Screenshot](resources/Screenshot_2.jpg)
 
 ## Personalization
 In the code you can find comments which will help you to customize your builds. By now you can customize:
